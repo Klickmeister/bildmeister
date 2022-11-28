@@ -1,0 +1,31 @@
+{
+  "name": "bildmeister",
+  "version": "2.0.0",
+  "description": "Marketing Page for Bildmeister",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy --dryrun",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klickmeister/bildmeister.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Klickmeister/bildmeister/issues"
+  },
+  "homepage": "https://github.com/Klickmeister/bildmeister#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
